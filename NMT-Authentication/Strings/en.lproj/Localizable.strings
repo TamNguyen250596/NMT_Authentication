@@ -5,3 +5,9 @@
   Created by Nguyen Minh Tam on 02/04/2022.
   
 */
+"text_authentication_title" = "Authentication methods";
+"text_faceID" = "Face ID";
+"text_touchID" = "Touch ID";
+"text_OTP" = "OTP";
+"text_SMS" = "SMS";
+"text_QR_scan_title" = "QR reader"; 
