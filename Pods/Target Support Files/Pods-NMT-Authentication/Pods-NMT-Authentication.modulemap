@@ -1,0 +1,6 @@
+framework module Pods_NMT_Authentication {
+  umbrella header "Pods-NMT-Authentication-umbrella.h"
+
+  export *
+  module * { export * }
+}

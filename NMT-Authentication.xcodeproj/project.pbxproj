@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C73F0124124C8FDE6657A67 /* Pods_NMT_Authentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39205C34374319B32CDFD68F /* Pods_NMT_Authentication.framework */; };
 		E97E948B27F5E30F00B5B047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E948A27F5E30F00B5B047 /* AppDelegate.swift */; };
 		E97E948D27F5E30F00B5B047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E948C27F5E30F00B5B047 /* SceneDelegate.swift */; };
-		E97E948F27F5E30F00B5B047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E948E27F5E30F00B5B047 /* ViewController.swift */; };
-		E97E949227F5E30F00B5B047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97E949027F5E30F00B5B047 /* Main.storyboard */; };
 		E97E949427F5E30F00B5B047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97E949327F5E30F00B5B047 /* Assets.xcassets */; };
 		E97E949727F5E30F00B5B047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97E949527F5E30F00B5B047 /* LaunchScreen.storyboard */; };
+		E97E94A427F5E3D500B5B047 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E94A327F5E3D500B5B047 /* BaseController.swift */; };
+		E97E94A627F7F87600B5B047 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E94A527F7F87600B5B047 /* LoginController.swift */; };
+		E97E94A927F7F97A00B5B047 /* ColorName .swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E94A827F7F97A00B5B047 /* ColorName .swift */; };
+		E97E94AD27F7FA0200B5B047 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E97E94AF27F7FA0200B5B047 /* Localizable.strings */; };
+		E97E94B227FB1BBD00B5B047 /* AuthenticationMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E94B127FB1BBD00B5B047 /* AuthenticationMethodsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39205C34374319B32CDFD68F /* Pods_NMT_Authentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NMT_Authentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDEA1C2EBCE37C9E98C3400 /* Pods-NMT-Authentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMT-Authentication.debug.xcconfig"; path = "Target Support Files/Pods-NMT-Authentication/Pods-NMT-Authentication.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8B3A04EDE60591A663E9CB /* Pods-NMT-Authentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMT-Authentication.release.xcconfig"; path = "Target Support Files/Pods-NMT-Authentication/Pods-NMT-Authentication.release.xcconfig"; sourceTree = "<group>"; };
 		E97E948727F5E30F00B5B047 /* NMT-Authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NMT-Authentication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97E948A27F5E30F00B5B047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E97E948C27F5E30F00B5B047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E97E948E27F5E30F00B5B047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E97E949127F5E30F00B5B047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E97E949327F5E30F00B5B047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E97E949627F5E30F00B5B047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E97E949827F5E30F00B5B047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97E94A327F5E3D500B5B047 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		E97E94A527F7F87600B5B047 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E97E94A827F7F97A00B5B047 /* ColorName .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorName .swift"; sourceTree = "<group>"; };
+		E97E94AE27F7FA0200B5B047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E97E94B027F7FA1700B5B047 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E97E94B127FB1BBD00B5B047 /* AuthenticationMethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationMethodsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +42,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C73F0124124C8FDE6657A67 /* Pods_NMT_Authentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1D15B12857EC7F8A9117410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCDEA1C2EBCE37C9E98C3400 /* Pods-NMT-Authentication.debug.xcconfig */,
+				CE8B3A04EDE60591A663E9CB /* Pods-NMT-Authentication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E97E947E27F5E30F00B5B047 = {
 			isa = PBXGroup;
 			children = (
 				E97E948927F5E30F00B5B047 /* NMT-Authentication */,
 				E97E948827F5E30F00B5B047 /* Products */,
+				C1D15B12857EC7F8A9117410 /* Pods */,
+				EF3C8AB378AB413E2E9FFD81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,74 @@
 		E97E948927F5E30F00B5B047 /* NMT-Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				E97E94AA27F7F9EB00B5B047 /* Strings */,
+				E97E94A727F7F95800B5B047 /* Ulities  */,
+				E97E94A227F5E3A100B5B047 /* ViewModels */,
+				E97E94A127F5E39500B5B047 /* ViewControllers */,
+				E97E949F27F5E36500B5B047 /* Views  */,
+				E97E949E27F5E34400B5B047 /* Model */,
 				E97E948A27F5E30F00B5B047 /* AppDelegate.swift */,
 				E97E948C27F5E30F00B5B047 /* SceneDelegate.swift */,
-				E97E948E27F5E30F00B5B047 /* ViewController.swift */,
-				E97E949027F5E30F00B5B047 /* Main.storyboard */,
 				E97E949327F5E30F00B5B047 /* Assets.xcassets */,
 				E97E949527F5E30F00B5B047 /* LaunchScreen.storyboard */,
 				E97E949827F5E30F00B5B047 /* Info.plist */,
 			);
 			path = "NMT-Authentication";
+			sourceTree = "<group>";
+		};
+		E97E949E27F5E34400B5B047 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E97E949F27F5E36500B5B047 /* Views  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Views ";
+			sourceTree = "<group>";
+		};
+		E97E94A127F5E39500B5B047 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E97E94A327F5E3D500B5B047 /* BaseController.swift */,
+				E97E94A527F7F87600B5B047 /* LoginController.swift */,
+				E97E94B127FB1BBD00B5B047 /* AuthenticationMethodsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E97E94A227F5E3A100B5B047 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E97E94A727F7F95800B5B047 /* Ulities  */ = {
+			isa = PBXGroup;
+			children = (
+				E97E94A827F7F97A00B5B047 /* ColorName .swift */,
+			);
+			path = "Ulities ";
+			sourceTree = "<group>";
+		};
+		E97E94AA27F7F9EB00B5B047 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				E97E94AF27F7FA0200B5B047 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		EF3C8AB378AB413E2E9FFD81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39205C34374319B32CDFD68F /* Pods_NMT_Authentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E97E949B27F5E30F00B5B047 /* Build configuration list for PBXNativeTarget "NMT-Authentication" */;
 			buildPhases = (
+				543C7CBFE7E606B6E1A06223 /* [CP] Check Pods Manifest.lock */,
 				E97E948327F5E30F00B5B047 /* Sources */,
 				E97E948427F5E30F00B5B047 /* Frameworks */,
 				E97E948527F5E30F00B5B047 /* Resources */,
+				2DAD030981205BD45408D175 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +193,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = E97E947E27F5E30F00B5B047;
 			productRefGroup = E97E948827F5E30F00B5B047 /* Products */;
@@ -126,20 +211,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				E97E949727F5E30F00B5B047 /* LaunchScreen.storyboard in Resources */,
+				E97E94AD27F7FA0200B5B047 /* Localizable.strings in Resources */,
 				E97E949427F5E30F00B5B047 /* Assets.xcassets in Resources */,
-				E97E949227F5E30F00B5B047 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DAD030981205BD45408D175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NMT-Authentication/Pods-NMT-Authentication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NMT-Authentication/Pods-NMT-Authentication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NMT-Authentication/Pods-NMT-Authentication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		543C7CBFE7E606B6E1A06223 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NMT-Authentication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E97E948327F5E30F00B5B047 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97E948F27F5E30F00B5B047 /* ViewController.swift in Sources */,
 				E97E948B27F5E30F00B5B047 /* AppDelegate.swift in Sources */,
+				E97E94A627F7F87600B5B047 /* LoginController.swift in Sources */,
+				E97E94A427F5E3D500B5B047 /* BaseController.swift in Sources */,
+				E97E94B227FB1BBD00B5B047 /* AuthenticationMethodsViewController.swift in Sources */,
+				E97E94A927F7F97A00B5B047 /* ColorName .swift in Sources */,
 				E97E948D27F5E30F00B5B047 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,20 +277,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E97E949027F5E30F00B5B047 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E97E949127F5E30F00B5B047 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E97E949527F5E30F00B5B047 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E97E949627F5E30F00B5B047 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E97E94AF27F7FA0200B5B047 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97E94AE27F7FA0200B5B047 /* en */,
+				E97E94B027F7FA1700B5B047 /* vi */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -216,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -270,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +415,7 @@
 		};
 		E97E949C27F5E30F00B5B047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDEA1C2EBCE37C9E98C3400 /* Pods-NMT-Authentication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +426,6 @@
 				INFOPLIST_FILE = "NMT-Authentication/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +443,7 @@
 		};
 		E97E949D27F5E30F00B5B047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8B3A04EDE60591A663E9CB /* Pods-NMT-Authentication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +454,6 @@
 				INFOPLIST_FILE = "NMT-Authentication/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
