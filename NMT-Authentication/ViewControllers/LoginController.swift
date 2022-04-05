@@ -111,7 +111,8 @@ class LoginController: BaseController {
     
     @objc func handleEventFromNextButton() {
         
-        
+        let targetVC = AuthenticationMethodsViewController()
+        self.navigationController?.pushViewController(targetVC, animated: true)
         
     }
     
